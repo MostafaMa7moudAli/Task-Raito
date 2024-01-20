@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+
+*
+{direction: rtl;font-family: Cairo;}
+
+.navbar
+{ background-color: #006494 !important;}
+
+.navbar .navbar-brand
+{font-weight: bold; color: #aff1ff;}
+
+.main-container
+{height: auto;min-height: 600px;overflow: hidden;padding-top: 50px !important;padding-bottom: 50px !important;border-radius: 5px;background-color: #caf0f8;}
+
+.index_header
+{display: flex;flex-direction: row;justify-content: space-between;align-items: center;margin-bottom: 15px;}
+
+.title_header
+{text-align: center;margin-bottom: 15px; color: #006494}
+
+.frm
+{border: 2px solid #006494;border-radius: 5px;padding: 20px;max-width: 850px;margin: auto;}
+
+.frm div
+{margin-bottom: 15px;}
+
+.invoice-details
+{margin-top: 10px; margin-bottom: 10px;}
+
+.invoice-details .input-group
+{margin-bottom: 10px;}
+
+.input-group .input-group-text
+{border-radius: 0px 5px 5px 0px !important;}
+
+.input-group .input-group-control
+{border-radius: 5px 0px 0px 5px !important;}
+
+.footer
+{ background-color: #051923; color: #aaa; padding: 10px 0px; width: 100%;}
+
+.footer a
+{ color: #aff1ff }
+
+.footer a:hover
+{ color: #FFF; text-decoration: none }
+
+.footer .copy
+{background-color: #003554; padding: 10px; letter-spacing: .5px; font-size: 1.1em;}
+
+.footer .copy p
+{ margin: 0px;font-size: 16px; }
+
+.footer .copy a
+{ font-weight: bold; text-decoration: none; }
+
+.footer .copy a:hover
+{ text-decoration: underline }
+
